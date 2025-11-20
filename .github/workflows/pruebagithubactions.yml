@@ -36,6 +36,3 @@ jobs:
       - name: Mostrar estado del trabajo
         run: |
           echo "El estado del trabajo es: ${{ job.status }}."
-
-      - name: Hola
-        run: echo "Hola"
